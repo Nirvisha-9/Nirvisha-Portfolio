@@ -1,0 +1,135 @@
+export const resumeData = {
+  basics: {
+    name: "Nirvisha Sriram",
+    title: "Masters in Computer Science @ Santa Clara University | Ex-Associate at Cognizant",
+    subtitle: "Data Visualization · Tableau · Alteryx · SQL · ML",
+    summary:
+      "I am a Master's in Computer Science student at Santa Clara University with a focus on building scalable, data-driven solutions. My background combines rigorous academic training with over three years of professional experience at Cognizant, where I specialized in data infrastructure, visualization, and analytical problem-solving. Throughout my career, I have thrived on breaking down complex, 'fuzzy' problems into actionable technical solutions. Whether I am designing ETL pipelines, administering enterprise servers, or implementing machine learning models, I am committed to leveraging technology to drive decision-making and performance. I am a lifelong learner who adapts quickly to new technologies and is eager to contribute to innovative teams in tech.",
+    location: "United States",
+    email: "nirvisha.sriram@gmail.com",
+    linkedin: "https://www.linkedin.com/in/nirvisha-sriram/",
+  },
+  experience: [
+    {
+      company: "Cognizant",
+      totalDuration: "3 years 7 months",
+      roles: [
+        {
+          title: "Associate Business Intelligence Analyst",
+          dates: "August 2023 – October 2024",
+          duration: "1 year 3 months",
+          location: "India",
+          bullets: [
+            "Engineered end-to-end data solutions by translating abstract business challenges into scalable technical architectures, utilizing a mix of analytical rigor and creative problem-solving.",
+            "Collaborated with cross-functional stakeholders to define reporting specifications and technical requirements, delivering high-impact data analysis and optimizing performance.",
+            "Architected and deployed automated data pipelines for global banking clients using Alteryx, streamlining complex ETL processes to ensure data integrity and system reliability.",
+            "Developed and optimized complex SQL queries to manipulate large datasets, reducing processing time and improving the accuracy of financial reporting.",
+            "Implemented advanced statistical modeling and algorithms to uncover actionable trends, directly contributing to data-driven strategies for enhancing financial performance.",
+            "Led project lifecycles using Agile methodologies, managing resource allocation and timelines to maintain high-velocity delivery in a fast-paced market.",
+            "Built and productionized interactive Tableau dashboards, ensuring high-concurrency performance and a seamless user experience for executive decision-makers.",
+          ],
+        },
+        {
+          title: "Programming Analyst",
+          dates: "September 2022 – July 2023",
+          duration: "11 months",
+          location: "Hyderabad, Telangana, India",
+          bullets: [
+            "Administered Tableau Server and Alteryx Server, ensuring optimal performance, security, and reliability.",
+            "Created projects to organize content on the site, and assigned permissions to allow users (groups) to access the content. Promoted and certified content and measured the use of analytics within the site.",
+            "Managed user access and groups, monitored system health, and troubleshot issues to maintain seamless operations.",
+            "Oversaw updates, backups, and configurations to support business intelligence and data analytics initiatives.",
+            "Analyzed and monitored server activity, managed scheduled tasks, and performed other maintenance activities.",
+            "Collaborated with IT and development teams to implement best practices and improve server efficiency.",
+          ],
+        },
+        {
+          title: "Programmer Analyst Trainee",
+          dates: "September 2021 – September 2022",
+          duration: "1 year 1 month",
+          location: "Hyderabad, Telangana, India",
+          bullets: [],
+        },
+        {
+          title: "Intern",
+          dates: "April 2021 – September 2021",
+          duration: "6 months",
+          location: "Hyderabad, Telangana, India",
+          bullets: [],
+        },
+      ],
+    },
+    {
+      company: "GoalStreet",
+      totalDuration: "5 months",
+      roles: [
+        {
+          title: "Machine Learning Engineer Intern",
+          dates: "April 2020 – August 2020",
+          duration: "5 months",
+          location: "",
+          bullets: [
+            "Learned how to use Python to implement models in machine learning.",
+            "Implemented Machine Learning algorithms on case studies of client companies.",
+            "Worked on H1B Visa Approval prediction using Classification algorithms.",
+          ],
+        },
+      ],
+    },
+    {
+      company: "Takenmind Technologies",
+      totalDuration: "2 months",
+      roles: [
+        {
+          title: "Data Analyst Intern",
+          dates: "December 2019 – January 2020",
+          duration: "2 months",
+          location: "",
+          bullets: [
+            "Financial Data Analysis using insights given by company.",
+            "Visualization of data analyzed using Python into graphs and charts.",
+          ],
+        },
+      ],
+    },
+  ],
+  skills: {
+    "AI & ML": ["Large Language Models (LLM)", "T5", "Natural Language Processing (NLP)", "Machine Learning", "Classification Algorithms", "Statistical Modeling"],
+    "Data & Analytics": ["SQL", "Tableau", "Alteryx", "ETL Pipelines", "Data Visualization", "Financial Reporting", "Data Analysis"],
+    "Engineering": ["Python", "Agile Methodologies", "Server Administration", "Data Infrastructure", "Scalable Architectures"],
+    "Platforms": ["Tableau Server", "Alteryx Server"],
+  },
+  education: [
+    {
+      institution: "Santa Clara University",
+      degree: "Master's degree, Computer Science",
+      dates: "September 2025 - Current",
+      location: "United States",
+    },
+    {
+      institution: "MVSR Engineering College",
+      degree: "Bachelor of Engineering – BE, Computer Science",
+      dates: "July 2017 – May 2021",
+      location: "",
+    },
+    {
+      institution: "Narayana Junior College",
+      degree: "",
+      dates: "April 2015 – April 2017",
+      location: "",
+    },
+    {
+      institution: "Howard Public School",
+      degree: "",
+      dates: "March 2007 – March 2015",
+      location: "",
+    },
+  ],
+  certifications: [
+    "Programming Essentials in C",
+    "Python (Basic)",
+    "Cyber Security Essentials",
+    "Artificial Intelligence",
+    "IT Essentials",
+  ],
+};
