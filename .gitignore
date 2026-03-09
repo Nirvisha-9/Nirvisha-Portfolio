@@ -1,0 +1,53 @@
+# Node
+node_modules/
+
+# Next.js build
+.next/
+out/
+build/
+.DS_Store
+
+# Production
+/dist/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Testing
+coverage/
+*.lcov
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# TypeScript
+*.tsbuildinfo
+
+# Mac
+.DS_Store
+
+# Misc
+.cache/
+.pnpm-store/
+
+# Optional: lockfiles (uncomment if you prefer to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
