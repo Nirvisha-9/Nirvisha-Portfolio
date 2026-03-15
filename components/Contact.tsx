@@ -83,15 +83,26 @@ export default function Contact() {
             <p className="text-text-dim text-sm mb-4">
               Full resume with all experience, education, and certifications
             </p>
-            <a
-              href="https://www.linkedin.com/in/nirvishasriram"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent-3/10 border border-accent-3/30 text-accent-3 font-display font-semibold text-sm hover:bg-accent-3/20 transition-all"
-            >
-              View on LinkedIn
-              <ArrowUpRight size={14} />
-            </a>
+            <div className="flex flex-wrap justify-center gap-3">
+              <a
+                href="/resume.pdf"
+                download
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent-3/10 border border-accent-3/30 text-accent-3 font-display font-semibold text-sm hover:bg-accent-3/20 transition-all"
+              >
+                <Download size={14} />
+                Download Resume
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/nirvishasriram"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent-3/10 border border-accent-3/30 text-accent-3 font-display font-semibold text-sm hover:bg-accent-3/20 transition-all"
+              >
+                View on LinkedIn
+                <ArrowUpRight size={14} />
+              </a>
+            </div>
           </div>
         </motion.div>
       </div>

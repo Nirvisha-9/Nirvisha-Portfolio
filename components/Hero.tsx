@@ -92,11 +92,8 @@ export default function Hero({ visible }: { visible: boolean }) {
             <ArrowDown size={16} />
           </button>
           <a
-            href="#resume-download"
-            onClick={(e) => {
-              e.preventDefault();
-              document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
-            }}
+            href="/resume.pdf"
+            download
             className="flex items-center gap-2 px-7 py-3.5 rounded-xl font-display font-semibold text-sm glass border border-border hover:border-accent/40 text-text transition-all hover:-translate-y-0.5"
           >
             <Download size={16} />
