@@ -17,7 +17,7 @@ const projects = [
   },
   {
     title: "PRISM",
-    desc: "A data intelligence platform designed to surface actionable insights from complex, multi-source datasets. Built with a focus on scalable pipelines and real-time visualization for decision-makers.",
+    desc: "An AI-powered navigation system that sees and speaks. Using computer vision and voice guidance, Prism understands your surroundings in real time and delivers intelligent, hands-free directions — making navigation more natural, accessible, and aware of the world around you.",
     stack: ["Python", "Data Pipelines", "Visualization", "Analytics"],
     color: "#7c6af7",
     icon: "💎",
