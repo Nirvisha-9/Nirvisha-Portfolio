@@ -5,6 +5,17 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "CLI coding assistant",
+    desc: "An AI-powered terminal companion that understands natural language and takes real action on your system. Skip the manual commands — just describe what you want and it handles the rest, from managing files and scaffolding projects to generating code and debugging errors, all without leaving your terminal.",
+    stack: ["Python", "Groq API", "Llama 3.3 70B", "Click", "Subprocess", "Prompt Engineering"],
+    color: "#a78bfa",
+    icon: "⌨️",
+    status: "AI Tool",
+    gradient: "from-[#a78bfa]/20 to-[#a78bfa]/5",
+    // Replace with your repo URL if available
+    githubUrl: "https://github.com/Nirvisha-9/cli-coding-assistant",
+  },
+  {
     title: "PRISM",
     desc: "A data intelligence platform designed to surface actionable insights from complex, multi-source datasets. Built with a focus on scalable pipelines and real-time visualization for decision-makers.",
     stack: ["Python", "Data Pipelines", "Visualization", "Analytics"],
@@ -24,7 +35,7 @@ const projects = [
     status: "Data Project",
     gradient: "from-[#ff6b6b]/20 to-[#ff6b6b]/5",
     // Replace with your repo URL
-    githubUrl: "https://github.com/Nirvisha-9/road-accident-analysis",
+    githubUrl: "https://github.com/Nirvisha-9/Accident-Detection",
   },
   {
     title: "Kitchen Buddy",
