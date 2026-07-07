@@ -12,7 +12,7 @@ const projects = [
     icon: "🌱",
     status: "Top 6 · Eazo AI Global Hackathon SF",
     gradient: "from-[#00d4ff]/20 to-[#00d4ff]/5",
-    githubUrl: "https://github.com/Nirvisha-9/nara",
+    githubUrl: "https://github.com/Nirvisha-9/Nara",
   },
   {
     title: "Lore",
