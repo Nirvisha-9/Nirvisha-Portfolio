@@ -5,6 +5,26 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Nara",
+    desc: "An AI companion for parents of children with developmental differences, offering guidance, emotional support, and personalized resources. Built with a full-stack architecture on AWS Bedrock, using DeepSeek to power empathetic, context-aware conversations.",
+    stack: ["Next.js", "Drizzle ORM", "PostgreSQL", "AWS Bedrock", "DeepSeek"],
+    color: "#00d4ff",
+    icon: "🌱",
+    status: "Top 6 · Eazo AI Global Hackathon SF",
+    gradient: "from-[#00d4ff]/20 to-[#00d4ff]/5",
+    githubUrl: "https://github.com/Nirvisha-9/nara",
+  },
+  {
+    title: "Lore",
+    desc: "An AI cinematic cutscene generator that transforms story prompts into short, styled video sequences. Built during the Beta Fund MultiModel Hackathon using Seedance 2.0 for generation and Butterbase for orchestration.",
+    stack: ["Seedance 2.0", "Butterbase", "Python", "Generative Video"],
+    color: "#a78bfa",
+    icon: "🎬",
+    status: "Beta Fund MultiModel Hackathon",
+    gradient: "from-[#a78bfa]/20 to-[#a78bfa]/5",
+    githubUrl: "https://github.com/Nirvisha-9/lore",
+  },
+  {
     title: "CLI coding assistant",
     desc: "An AI-powered terminal companion that understands natural language and takes real action on your system. Skip the manual commands — just describe what you want and it handles the rest, from managing files and scaffolding projects to generating code and debugging errors, all without leaving your terminal.",
     stack: ["Python", "Groq API", "Llama 3.3 70B", "Click", "Subprocess", "Prompt Engineering"],

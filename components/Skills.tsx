@@ -26,6 +26,7 @@ const allSkillGroups = [
     icon: "☁️",
     skills: [
       "AWS (EC2, S3, Lambda, Bedrock, Rekognition, Amplify)",
+      "DeepSeek (via AWS Bedrock)",
       "Microservices Architecture",
       "RESTful APIs",
       "Cloud-native Development",
@@ -69,6 +70,8 @@ const allSkillGroups = [
       "JavaScript",
       "React.js",
       "React Native",
+      "Next.js",
+      "Firebase",
     ],
   },
   {
