@@ -5,23 +5,23 @@ import { ChevronDown, TrendingUp } from "lucide-react";
 import { resumeData } from "@/lib/resume-data";
 
 const impactBullets = [
+  "LLM sycophancy & hallucination benchmarking at AIM Lab (ICLR 2026)",
+  "500+ WCAG 2.1 AA / PDF-UA accessible documents for 10,000+ users",
+  "React Native + Firebase field ops system for NGO recycling program",
   "Alteryx ETL pipelines for global banking clients",
   "10+ Tableau dashboards for C-suite decision-makers",
-  "Agile project lifecycle leadership",
   "Enterprise Tableau + Alteryx Server admin",
-  "H1B ML Classification prediction model",
-  "Financial data visualization via Python",
 ];
 
-const companyColors = ["#7c6af7", "#00d4ff", "#f7d46a"];
-const companyIcons  = ["🏢", "🤖", "📊"];
+const companyColors = ["#c084fc", "#34d399", "#00d4ff", "#7c6af7", "#f7d46a"];
+const companyIcons  = ["🧠", "♿", "🌱", "🏢", "📊"];
 
 const allRoles = resumeData.experience.flatMap((company, ci) =>
   company.roles.map((role) => ({
     ...role,
     company: company.company,
-    companyColor: companyColors[ci % 3],
-    companyIcon: companyIcons[ci % 3],
+    companyColor: companyColors[ci % companyColors.length],
+    companyIcon: companyIcons[ci % companyIcons.length],
   }))
 );
 

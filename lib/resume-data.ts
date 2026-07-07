@@ -11,6 +11,57 @@ export const resumeData = {
   },
   experience: [
     {
+      company: "Santa Clara University — AIM Lab",
+      totalDuration: "3 months",
+      roles: [
+        {
+          title: "Research Assistant",
+          dates: "May 2026 – Present",
+          duration: "3 months",
+          location: "California, United States",
+          bullets: [
+            "Conducting research on LLM behavior, focusing on sycophancy, hallucinations, and multimodal model evaluation.",
+            "Designing benchmarks and experimental frameworks to analyze model reliability, behavioral drift, and response patterns across diverse synthetic personas.",
+            "Performing quantitative analysis of model outputs and contributing to the development of evaluation methodologies for trustworthy AI systems.",
+          ],
+        },
+      ],
+    },
+    {
+      company: "SCU Frugal Innovation Hub",
+      totalDuration: "5 months",
+      roles: [
+        {
+          title: "Software Engineer",
+          dates: "March 2026 – Present",
+          duration: "5 months",
+          location: "United States",
+          bullets: [
+            "Built an end-to-end recycling management system for an NGO, supporting field operations including pickup workflows, verification, and tracking using a scalable React Native + Firebase architecture.",
+            "Designed a modular system with layered state management, paginated data flows, and secure database transactions to ensure reliable field data handling.",
+            "Building accessibility-focused features including multilingual support (English/Spanish) and voice-guided interactions to improve usability for field workers and volunteers.",
+          ],
+        },
+      ],
+    },
+    {
+      company: "Santa Clara University",
+      totalDuration: "7 months",
+      roles: [
+        {
+          title: "Software Engineer — Accessibility Engineering",
+          dates: "January 2026 – Present",
+          duration: "7 months",
+          location: "United States",
+          bullets: [
+            "Built AI-powered document accessibility pipelines leveraging ML-based auto-tagging to meet WCAG 2.1 AA and PDF/UA compliance standards, enabling 500+ web pages, PDFs, and PPTX files to be accessible for 10,000+ students and staff with disabilities.",
+            "Developed batch scripting workflows to automate large-scale PDF remediation, reducing manual tagging overhead and significantly improving per-document processing speed across the accessibility program.",
+            "Reviewed and refined ML-generated accessibility tags — including heading structure, alt-text, reading order, and table formatting — against WCAG 2.1 success criteria for both academic and enterprise university content.",
+          ],
+        },
+      ],
+    },
+    {
       company: "Cognizant",
       totalDuration: "3 years 7 months",
       roles: [
