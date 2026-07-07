@@ -63,7 +63,7 @@ export default function Hero({ visible }: { visible: boolean }) {
             MS Computer Science · Santa Clara University
           </p>
           <div className="flex flex-wrap justify-center gap-2">
-            {["Python", "AWS", "React", "SQL", "ML / LLM", "ETL Pipelines"].map((t) => (
+            {["Python", "AWS", "LLMs", "Agentic AI", "React Native", "Multi-Agent Systems"].map((t) => (
               <span key={t} className="chip">{t}</span>
             ))}
           </div>
@@ -75,11 +75,10 @@ export default function Hero({ visible }: { visible: boolean }) {
           className="text-text-dim text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-10 font-body"
           style={{ fontWeight: 300 }}
         >
-          3+ years at Cognizant building <span className="text-text">scalable data pipelines</span>,{" "}
-          <span className="text-text">BI dashboards</span>, and{" "}
-          <span className="text-text">ML solutions</span> for global banking clients. Experienced in translating complex business problems 
-          into robust, scalable technical architectures.
-          
+          Researching <span className="text-text">LLM sycophancy and hallucination</span> at AIM Lab, building{" "}
+          <span className="text-text">AI-powered accessibility pipelines</span> and{" "}
+          <span className="text-text">full-stack AI applications</span> at Santa Clara University, backed by 3+ years
+          at Cognizant building scalable data pipelines and BI solutions for global banking clients.
         </motion.p>
 
         {/* CTAs */}
@@ -120,9 +119,9 @@ export default function Hero({ visible }: { visible: boolean }) {
           <p className="font-mono text-xs text-muted uppercase tracking-widest mb-4">Top Impact</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 max-w-2xl mx-auto">
             {[
-              { val: "3.5+", label: "Years at Cognizant", color: "accent" },
-              { val: "Global", label: "Banking Clients · Alteryx ETL", color: "accent-2" },
-              { val: "MS", label: "CS @ Santa Clara University", color: "accent-3" },
+              { val: "Top 6", label: "Eazo AI Global Hackathon SF · Nara", color: "accent" },
+              { val: "AIM Lab", label: "LLM Sycophancy Research · ICLR 2026", color: "accent-2" },
+              { val: "3.5+", label: "Years Industry Experience", color: "accent-3" },
             ].map((item) => (
               <div
                 key={item.val}
